@@ -1,0 +1,81 @@
+@media (max-width: 900px) {
+    h1,h2,h3 {
+        font-size: 18px !important;
+    }
+    h4 {
+        font-size: 14px !important;
+    }
+    h5, h6{
+        font-size: 12px !important;
+    }
+    p , a , li , button {
+        font-size: 11px !important;
+    }
+    .navbar{
+        padding: 0px !important;
+    }
+    .navbar-nav{
+        width: 100%;
+        height: 100vh;
+        position: fixed;
+        top: 49px;
+        background-color: #fff;
+        flex-direction: column !important;
+        justify-content: unset !important;
+        align-items: center;
+        transition: all .5s linear;
+        right: -100%;
+        z-index: 99999;
+    }
+    .navbar-nav li {
+        margin: 13px 0px !important;
+    }
+    .hamburger{
+        display: block !important;
+    }
+    .acitve-nav{
+        right: 0;
+    }
+    header {
+        overflow: hidden !important;
+    }
+    .programs .heading h4{
+        margin: auto !important; 
+    }
+    header .image-content img.fisrt-img{
+        object-fit: contain;
+    }
+    header .image-content ,
+    .about-us .image-content img
+    {
+        height: 320px;
+    }
+    .programs .image-content img{
+        height: 200px;
+    }
+    .services .content{
+        padding: 0px;
+    }
+    header .wave-content .wave:nth-child(1){
+        bottom: 10px;
+    }
+    header .wave-content .wave:nth-child(2){
+        bottom: 0px;
+    }
+    header .wave-content .wave:nth-child(3){
+        bottom: 30px;
+    }
+    header .wave-content .wave:nth-child(4){
+        bottom: 20px;
+    }
+    .programs .image-content .video-play {
+        top: 34%;
+        right: 45px;
+    }
+    footer .content .footer-links{
+        justify-content: flex-start;
+    }
+    .contact-us .image-content img {
+        height: 280px;
+    }
+}
